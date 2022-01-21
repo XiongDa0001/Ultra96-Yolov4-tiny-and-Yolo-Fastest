@@ -1,5 +1,5 @@
 # Ultra96 Yolov4-tiny and Yolo-Fastest
-1. We convert dataset to VOC format. I use UA-DETRAC dataset, and we can use ./VOCdevkit/ files to convert dataset.
+1. We convert dataset to VOC format. I use voc2007+2012 dataset, and we can use ./VOCdevkit/ files to convert dataset.
 
 2. In the official yolov4-tiny, there is a slice operation to realize  the CSPnet, but the quantitative tools don't support the operation, so I use a 1*1 convolution to replace it.
 
